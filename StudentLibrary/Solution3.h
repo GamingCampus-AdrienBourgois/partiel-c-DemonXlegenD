@@ -12,6 +12,7 @@ class Solution3 // Alphabetical Word Sorter
 public:
 	void SetWords(const std::vector<std::string>& _words);
 	void SortWords();
+	bool compareSansCasse(const std::string& a, const std::string& b);
 	std::vector<std::string> GetSortedWords() const;
 
 private:
